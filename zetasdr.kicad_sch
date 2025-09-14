@@ -1774,6 +1774,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3274,7 +3474,13 @@
 		(uuid "00d4cbaa-c769-4054-b841-0b60a021cf7e")
 	)
 	(junction
-		(at 80.01 36.83)
+		(at 68.58 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03711a00-d37f-4aec-8343-dd889e4e5df0")
+	)
+	(junction
+		(at 81.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "047c8ba2-4b65-4c5a-b7dd-36e1deccb16b")
@@ -3304,7 +3510,7 @@
 		(uuid "19b670fc-593c-4f48-94b1-e6a74028d2b3")
 	)
 	(junction
-		(at 69.85 27.94)
+		(at 71.12 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bfaae17-43f8-4025-8791-b4fa8b8b0009")
@@ -3334,13 +3540,19 @@
 		(uuid "2ede376e-df79-4e88-a2e7-562c893225cf")
 	)
 	(junction
+		(at 172.72 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3160805f-ecbd-41dc-9dca-6fd803ca325e")
+	)
+	(junction
 		(at 20.32 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39ae5fda-b92b-45be-8f5e-ff97df3fa05e")
 	)
 	(junction
-		(at 34.29 31.75)
+		(at 35.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "436fa228-dde2-4d56-91fe-1b9516b1f209")
@@ -3370,10 +3582,28 @@
 		(uuid "491084a4-c66f-4485-a23e-ef91fc7777a8")
 	)
 	(junction
-		(at 69.85 36.83)
+		(at 187.96 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4953b808-4352-4293-9016-c6c52876927e")
+	)
+	(junction
+		(at 71.12 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aeb6da6-0ad9-493f-8cc7-5ab6ec712619")
+	)
+	(junction
+		(at 68.58 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50209db4-6b8e-4954-b12d-19abd2393d67")
+	)
+	(junction
+		(at 220.98 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68aba44c-f6f5-4511-99b7-446a3a4d4edb")
 	)
 	(junction
 		(at 160.02 51.435)
@@ -3406,7 +3636,7 @@
 		(uuid "821e0c2e-813a-4f14-857c-980c889fc852")
 	)
 	(junction
-		(at 54.61 27.94)
+		(at 55.88 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "835e5adc-b1a6-4400-b2ed-05d2cd89acea")
@@ -3418,19 +3648,25 @@
 		(uuid "910cddc6-739f-4921-9d9d-a4b82d0016e5")
 	)
 	(junction
+		(at 57.15 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98944bda-b945-4832-851e-a4227c4157ae")
+	)
+	(junction
 		(at 149.86 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a244fe6d-a538-4d45-9ebd-5575db6876de")
 	)
 	(junction
-		(at 57.15 120.65)
+		(at 190.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b40f3b68-9331-48b2-8fa8-67c835ac6e96")
+		(uuid "a953f661-a7f4-4cf8-a526-a84b38e97604")
 	)
 	(junction
-		(at 54.61 36.83)
+		(at 55.88 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c30f4bab-b420-45c9-a8a7-6d3376eb4c88")
@@ -3442,19 +3678,7 @@
 		(uuid "c9153e6c-1d47-4e5a-8d53-85105d7587d9")
 	)
 	(junction
-		(at 172.72 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6e1e505-0499-4f18-a52f-40b3cae8defa")
-	)
-	(junction
-		(at 190.5 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e850cb45-b845-40a6-bf52-c4f966065e34")
-	)
-	(junction
-		(at 67.31 27.94)
+		(at 68.58 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef8b6525-ca9d-4918-a7e5-491f71871588")
@@ -3466,7 +3690,7 @@
 		(uuid "f40d9d8c-cc88-4308-bcde-48333526f5d2")
 	)
 	(junction
-		(at 34.29 39.37)
+		(at 35.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f75692fb-7b36-4fd2-8bce-386598626f7d")
@@ -3505,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 27.94) (xy 54.61 27.94)
+			(xy 43.18 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3545,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 176.53) (xy 163.83 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045ec37f-3710-45c0-ab81-c73b0a9e3b0e")
-	)
-	(wire
-		(pts
 			(xy 128.905 123.19) (xy 137.16 123.19)
 		)
 		(stroke
@@ -3585,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 36.83) (xy 54.61 36.83)
+			(xy 45.72 71.12) (xy 55.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 39.37) (xy 34.29 39.37)
+			(xy 29.21 78.74) (xy 35.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3675,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 36.83) (xy 120.65 68.58)
+			(xy 118.11 71.12) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3695,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 36.83) (xy 80.01 36.83)
+			(xy 71.12 71.12) (xy 81.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3712,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "156b4ae2-a45a-4afc-a6c9-f45f62bf2713")
+	)
+	(wire
+		(pts
+			(xy 71.12 80.01) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f4e2ea-6246-4512-a9a0-22fa13199b2f")
 	)
 	(wire
 		(pts
@@ -3745,13 +3969,33 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 31.75) (xy 34.29 27.94)
+			(xy 200.66 125.73) (xy 201.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5ebc82-17c6-4fda-8f01-f0fd9a69864e")
+	)
+	(wire
+		(pts
+			(xy 35.56 62.23) (xy 35.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1eed534d-ee01-4c15-8c91-2fefa5558477")
+	)
+	(wire
+		(pts
+			(xy 57.15 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d9cfb0-1d66-4a91-aa93-84c92f2301f4")
 	)
 	(wire
 		(pts
@@ -3815,16 +4059,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 68.58) (xy 40.64 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d574400-5429-4909-8869-deb966a09ab3")
-	)
-	(wire
-		(pts
 			(xy 182.88 63.5) (xy 190.5 63.5)
 		)
 		(stroke
@@ -3842,6 +4076,16 @@
 			(type default)
 		)
 		(uuid "30c6f7bf-f04b-464e-90c5-3bad2f30cbb3")
+	)
+	(wire
+		(pts
+			(xy 200.66 123.19) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323958a9-699e-4c3e-ab8d-93b3b54a2625")
 	)
 	(wire
 		(pts
@@ -3895,13 +4139,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 27.94) (xy 69.85 29.21)
+			(xy 71.12 62.23) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3dd6f3ce-dd70-4b11-8fce-78f4403530bb")
+	)
+	(wire
+		(pts
+			(xy 200.66 120.65) (xy 220.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe173ef-de7d-49f6-88d1-f21b00000915")
 	)
 	(wire
 		(pts
@@ -3985,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 27.94) (xy 72.39 27.94)
+			(xy 71.12 62.23) (xy 73.66 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4035,16 +4289,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 36.83) (xy 116.84 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce594f4-c7b6-4e07-8cda-f90ef13b6afc")
-	)
-	(wire
-		(pts
 			(xy 185.42 97.79) (xy 190.5 97.79)
 		)
 		(stroke
@@ -4072,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "5f0834cc-091a-4d75-8b78-3f05b6eadcf2")
-	)
-	(wire
-		(pts
-			(xy 172.72 111.76) (xy 172.72 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61421187-6dae-4db7-972c-9f5c96fd12a1")
 	)
 	(wire
 		(pts
@@ -4115,16 +4349,6 @@
 	)
 	(wire
 		(pts
-			(xy 183.515 123.19) (xy 194.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c943b15-db3f-4492-8e93-4c78192048e5")
-	)
-	(wire
-		(pts
 			(xy 175.26 63.5) (xy 160.02 63.5)
 		)
 		(stroke
@@ -4142,16 +4366,6 @@
 			(type default)
 		)
 		(uuid "6de829e0-688a-4f16-b283-88c6dc0bbb92")
-	)
-	(wire
-		(pts
-			(xy 172.72 119.38) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6bfcc4-44a6-4d0c-be66-f156281716af")
 	)
 	(wire
 		(pts
@@ -4175,7 +4389,27 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 82.55) (xy 190.5 92.71)
+			(xy 68.58 45.72) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd4aafa-6d7d-4e3d-85e9-6a2a3833db75")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82028181-f3bc-4995-b9ac-8c2dc58e295b")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4185,7 +4419,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 80.01 36.83)
+			(xy 55.88 78.74) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853ed6a7-f724-410d-9e78-f88606e42a15")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 81.28 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4202,16 +4446,6 @@
 			(type default)
 		)
 		(uuid "86ab642e-7ce4-44be-8a45-a8b757c9acff")
-	)
-	(wire
-		(pts
-			(xy 57.15 120.65) (xy 57.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89793f94-ead6-4299-b0d7-4e1489d8db76")
 	)
 	(wire
 		(pts
@@ -4235,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 57.15 120.65)
+			(xy 57.15 106.68) (xy 57.15 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4245,13 +4479,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 120.65) (xy 57.15 120.65)
+			(xy 57.15 90.17) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9068a3f8-91d1-4ad8-9131-154647fa8114")
+		(uuid "920ef476-baf0-49d2-a305-199a767fe053")
 	)
 	(wire
 		(pts
@@ -4272,6 +4506,16 @@
 			(type default)
 		)
 		(uuid "9306b9d8-622e-40d8-90df-65074fc48ca6")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942755da-1dd7-43b9-938a-53fb12045e0d")
 	)
 	(wire
 		(pts
@@ -4325,16 +4569,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 190.5 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c938458-22eb-4add-9266-fdfe36a9efbd")
-	)
-	(wire
-		(pts
 			(xy 132.08 118.11) (xy 132.715 118.11)
 		)
 		(stroke
@@ -4345,7 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 27.94) (xy 54.61 27.94)
+			(xy 58.42 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4355,7 +4589,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 27.94) (xy 69.85 27.94)
+			(xy 68.58 62.23) (xy 71.12 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4392,16 +4626,6 @@
 			(type default)
 		)
 		(uuid "a2091765-3a73-4f74-ba9c-b7d895a00453")
-	)
-	(wire
-		(pts
-			(xy 40.64 68.58) (xy 120.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4528313-7970-4583-afe3-d172024a5ee7")
 	)
 	(wire
 		(pts
@@ -4495,13 +4719,33 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 36.83) (xy 80.01 38.1)
+			(xy 190.5 82.55) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b566b372-79ee-4173-889d-2522c45daf8c")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 81.28 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5866948-846c-4ce9-b436-2181351f9fee")
+	)
+	(wire
+		(pts
+			(xy 220.98 123.19) (xy 220.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fa9d42-18ab-46bc-ac6f-7da99fcfd24a")
 	)
 	(wire
 		(pts
@@ -4512,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "b675c4b3-4e26-43f3-9811-7beddaef75bd")
-	)
-	(wire
-		(pts
-			(xy 172.72 123.19) (xy 175.895 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9cea5cf-c816-4061-a94c-74591dbd6fe4")
 	)
 	(wire
 		(pts
@@ -4575,13 +4809,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 36.83) (xy 27.94 39.37)
+			(xy 29.21 76.2) (xy 29.21 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c32c1ef7-b2bb-48e2-8ddd-cda23b574477")
+	)
+	(wire
+		(pts
+			(xy 68.58 31.75) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ae2ae4-400a-4554-a1d7-7145fc0ffcb4")
 	)
 	(wire
 		(pts
@@ -4595,17 +4839,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 172.72 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58609f7-4e07-4038-a782-abd85b8f5263")
-	)
-	(wire
-		(pts
-			(xy 33.02 31.75) (xy 34.29 31.75)
+			(xy 34.29 71.12) (xy 35.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4635,17 +4869,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 43.18 36.83)
+			(xy 35.56 80.01) (xy 35.56 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb7264f6-229c-4696-82f5-3e31ce0e0cc8")
+		(uuid "ca81ce80-e9c7-486c-8b14-00c614c9cf23")
 	)
 	(wire
 		(pts
-			(xy 64.77 27.94) (xy 67.31 27.94)
+			(xy 66.04 62.23) (xy 68.58 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4665,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 36.83) (xy 88.9 36.83)
+			(xy 81.28 71.12) (xy 90.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4705,6 +4939,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 120.65) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fc590d-e4a2-4114-bd50-bd2173abd179")
+	)
+	(wire
+		(pts
 			(xy 150.495 54.61) (xy 150.495 52.07)
 		)
 		(stroke
@@ -4725,16 +4969,6 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 82.55) (xy 205.74 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fe9448-d8f8-4d22-afb4-c59fb80c00a3")
-	)
-	(wire
-		(pts
 			(xy 67.31 139.7) (xy 67.31 123.19)
 		)
 		(stroke
@@ -4742,16 +4976,6 @@
 			(type default)
 		)
 		(uuid "daf0c6a6-fa72-473b-8521-8136ccb9e682")
-	)
-	(wire
-		(pts
-			(xy 190.5 82.55) (xy 198.755 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4e13d6-13e0-4037-a0ed-f165354a73ac")
 	)
 	(wire
 		(pts
@@ -4835,6 +5059,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 82.55) (xy 198.12 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecca7ba5-bbe8-4e53-b97a-7353d8053104")
+	)
+	(wire
+		(pts
 			(xy 57.15 106.68) (xy 73.66 106.68)
 		)
 		(stroke
@@ -4855,6 +5089,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 125.73) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e87733-f20d-49fd-8660-308563e4c3f4")
+	)
+	(wire
+		(pts
 			(xy 137.16 146.05) (xy 114.935 146.05)
 		)
 		(stroke
@@ -4862,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "f7fffc37-48f1-4c8a-889d-11adbd7f912d")
+	)
+	(wire
+		(pts
+			(xy 219.71 125.73) (xy 220.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86ec779-6ee9-4722-a0cc-fd99cede791a")
 	)
 	(wire
 		(pts
@@ -4885,13 +5139,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 27.94) (xy 54.61 29.21)
+			(xy 55.88 62.23) (xy 55.88 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa48ce2f-1f06-4758-8054-239f919374d2")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 68.58 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc8b2e4-bc6a-4620-ae34-f2873828fafb")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4903,7 +5167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0057e234-1d2a-453c-aa9c-203789d12e85")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR029"
 			(at 119.38 190.5 0)
 			(effects
 				(font
@@ -4952,7 +5216,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR045")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4968,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02506c76-a3cf-4e88-abad-beec126c12c1")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 134.62 179.07 0)
 			(effects
 				(font
@@ -5020,7 +5284,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "H4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5028,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 27.94 90)
+		(at 62.23 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5036,8 +5300,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06bb09c3-5be1-482c-9ed4-fc3f899de2bf")
-		(property "Reference" "C17"
-			(at 60.96 20.32 90)
+		(property "Reference" "C3"
+			(at 62.23 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5309,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 60.96 22.86 90)
+			(at 62.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 64.77 26.9748 0)
+			(at 66.04 61.2648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 27.94 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 27.94 0)
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5351,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5359,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 33.02 0)
+		(at 71.12 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5103,8 +5367,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e468956-bbda-47dc-8af7-5953e3b6b632")
-		(property "Reference" "C2"
-			(at 73.66 31.75 0)
+		(property "Reference" "C6"
+			(at 74.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5377,7 @@
 			)
 		)
 		(property "Value" "82p"
-			(at 73.66 34.29 0)
+			(at 74.93 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 70.8152 36.83 0)
+			(at 72.0852 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 33.02 0)
+			(at 71.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 33.02 0)
+			(at 71.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5420,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5164,7 +5428,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Capacitance")
-		(at 54.61 40.64 270)
+		(at 55.88 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5172,8 +5436,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd0b6ab-131b-45f8-a547-278e6d5ebce7")
-		(property "Reference" "D2"
-			(at 57.15 39.37 90)
+		(property "Reference" "D1"
+			(at 58.42 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5446,7 @@
 			)
 		)
 		(property "Value" "mv7404"
-			(at 57.15 41.91 90)
+			(at 58.42 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5455,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 54.61 40.64 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 40.64 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +5473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 40.64 0)
+			(at 55.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5489,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5241,7 +5505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "112c081a-c5f9-4325-930c-bb54aceb03a4")
-		(property "Reference" "C6"
+		(property "Reference" "C14"
 			(at 142.875 90.805 0)
 			(effects
 				(font
@@ -5294,7 +5558,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C6")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1277b2e4-2a66-4bec-b9c1-2c349d7d348b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 96.52 190.5 0)
 			(effects
 				(font
@@ -5359,7 +5623,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR027")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5367,7 +5631,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 99.06 26.67 0)
+		(at 100.33 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5375,8 +5639,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131b6921-a6e1-4da5-8014-153a5b3fa12d")
-		(property "Reference" "#PWR037"
-			(at 99.06 30.48 0)
+		(property "Reference" "#PWR024"
+			(at 100.33 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5649,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 99.06 21.59 0)
+			(at 100.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 26.67 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 26.67 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 26.67 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5688,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR037")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5432,7 +5696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 44.45 0)
+		(at 71.12 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5440,8 +5704,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "149c9c06-caac-4c66-b58f-0323c046ad65")
-		(property "Reference" "#PWR018"
-			(at 69.85 50.8 0)
+		(property "Reference" "#PWR015"
+			(at 71.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 49.53 0)
+			(at 71.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 44.45 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 44.45 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 44.45 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +5753,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5497,72 +5761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "173fe611-df46-46fa-bf07-c824bfff23ee")
-		(property "Reference" "#PWR040"
-			(at 158.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bb2ee8a-6aaf-4be0-abcd-671a3ab15eb6")
-		)
-		(instances
-			(project "zetasdr"
-				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 54.61 0)
+		(at 203.2 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5570,8 +5769,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da2ba7c-aced-4127-b124-602f9fd6d116")
-		(property "Reference" "#PWR035"
-			(at 210.82 60.96 0)
+		(property "Reference" "#PWR045"
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 59.69 0)
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 54.61 0)
+			(at 203.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 54.61 0)
+			(at 203.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 54.61 0)
+			(at 203.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5818,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR035")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20c2abfd-2730-4cff-beaf-780039a93e3d")
-		(property "Reference" "C8"
+		(property "Reference" "C16"
 			(at 153.67 90.805 0)
 			(effects
 				(font
@@ -5688,7 +5887,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C8")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5761,35 +5960,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 34.29 35.56 0)
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 193.04 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24ebd59d-120d-4cc0-b08d-e78e1f36f358")
-		(property "Reference" "C4"
-			(at 38.1 34.29 0)
+		(uuid "2397c6c7-b919-4030-8214-456b90441659")
+		(property "Reference" "J3"
+			(at 194.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 38.1 36.83 0)
+		(property "Value" "Conn_02x02_Counter_Clockwise"
+			(at 194.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 35.2552 39.37 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 193.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5995,83 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 35.56 0)
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e4eac4d-4482-48f7-8ed6-421e4f889502")
+		)
+		(pin "4"
+			(uuid "ff1fd219-a0b2-4987-b869-ec3f8fb3f6b0")
+		)
+		(pin "2"
+			(uuid "eba20053-d8ff-4ef5-acee-7c9bd35ff89b")
+		)
+		(pin "1"
+			(uuid "a27e2529-4715-4b30-8998-a419ba300dd7")
+		)
+		(instances
+			(project ""
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24ebd59d-120d-4cc0-b08d-e78e1f36f358")
+		(property "Reference" "C1"
+			(at 39.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 36.5252 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +6080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 35.56 0)
+			(at 35.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +6096,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5839,7 +6112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b02c05-e19b-49df-b613-2d856effec75")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -5888,7 +6161,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5904,7 +6177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c6dff7e-3e7c-4744-9c98-edec643d5460")
-		(property "Reference" "C20"
+		(property "Reference" "C8"
 			(at 75.565 179.07 0)
 			(effects
 				(font
@@ -5957,7 +6230,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C20")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5974,7 +6247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe8832f-3787-4884-97bb-a491f817c730")
-		(property "Reference" "C10"
+		(property "Reference" "C18"
 			(at 179.07 55.88 90)
 			(effects
 				(font
@@ -6025,7 +6298,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C10")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a9c27a-85bb-4cbc-96a9-f6648b4b59aa")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR039"
 			(at 150.495 68.58 0)
 			(effects
 				(font
@@ -6090,7 +6363,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR024")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f10862-df34-4fa8-b174-efebe5417adc")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 83.4741 96.52 0)
 			(effects
 				(font
@@ -6195,7 +6468,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6210,7 +6483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331ee467-128d-4872-9655-fd789883b6cf")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 181.61 103.505 90)
 			(effects
 				(font
@@ -6226,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 181.61 96.012 90)
 			(effects
 				(font
@@ -6261,24 +6534,40 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 44.45 0)
+		(lib_id "Device:L")
+		(at 184.15 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3639f291-9c1e-4815-a1e2-5cd42ce37de4")
-		(property "Reference" "#PWR07"
-			(at 54.61 50.8 0)
+		(uuid "354508ea-20d4-4e42-b128-def446772fa6")
+		(property "Reference" "L2"
+			(at 184.15 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8u"
+			(at 184.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,16 +6575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 54.61 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 44.45 0)
+		(property "Datasheet" "~"
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,8 +6584,67 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 44.45 0)
+		(property "Description" "Inductor"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "313367e9-2662-46ea-b41e-982aa18878db")
+		)
+		(pin "1"
+			(uuid "b3b4a52f-164f-4cc7-8543-2f3f697d2542")
+		)
+		(instances
+			(project ""
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d3da7d-c9a5-4e7c-b601-d3962245df48")
+		(property "Reference" "C4"
+			(at 64.77 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 64.77 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 33.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6653,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 44.45 0)
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f51433c9-c0e0-4064-82a2-5593b3f038af")
+		)
+		(pin "2"
+			(uuid "ccafd022-664b-456d-93f7-3fbb127afbf6")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3639f291-9c1e-4815-a1e2-5cd42ce37de4")
+		(property "Reference" "#PWR07"
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 45.72 0)
+		(at 45.72 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6342,8 +6750,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3982ada6-18d6-405f-b8ba-a9a633c9bc84")
-		(property "Reference" "#PWR017"
-			(at 43.18 52.07 0)
+		(property "Reference" "#PWR06"
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 50.8 0)
+			(at 45.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 45.72 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 45.72 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 45.72 0)
+			(at 45.72 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6799,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6399,7 +6807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 133.35 0)
+		(at 172.72 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6407,8 +6815,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a96b7b1-86da-4c70-8d51-1095bc9cf46e")
-		(property "Reference" "R3"
-			(at 170.18 132.08 0)
+		(property "Reference" "R7"
+			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6825,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 170.18 134.62 0)
+			(at 170.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 174.498 133.35 90)
+			(at 174.498 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 133.35 0)
+			(at 172.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 133.35 0)
+			(at 172.72 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,24 +6868,42 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 67.31 20.32 0)
+		(lib_id "Device:R")
+		(at 68.58 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c8c76ac-8292-4041-8581-cd233854fa9b")
-		(property "Reference" "#PWR03"
-			(at 67.31 24.13 0)
+		(uuid "3c038ca9-4489-415a-82f4-40251bff0c81")
+		(property "Reference" "R3"
+			(at 71.12 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50"
+			(at 71.12 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+			(at 66.802 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,16 +6911,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 67.31 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 20.32 0)
+		(property "Datasheet" "~"
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,8 +6920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 67.31 20.32 0)
+		(property "Description" "Resistor"
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,21 +6929,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "ffe5f85c-a18b-47d1-b87d-943c2d36dd35")
 		)
 		(pin "1"
-			(uuid "d613508d-7f3f-4e19-bdb6-e5a5ef54274a")
+			(uuid "29779368-9b84-4662-91ed-e2512d674375")
 		)
 		(instances
-			(project "zetasdr"
+			(project ""
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR03")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d8b14ce-636c-4cc5-9cc4-6e4916cd8156")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -6590,7 +7003,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6606,7 +7019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e123e79-ea23-4d4b-a688-7f8f2a13c6de")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR017"
 			(at 72.39 190.5 0)
 			(effects
 				(font
@@ -6655,7 +7068,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR042")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6671,7 +7084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff75392-c3f4-48cb-aeb1-5a0c7855684d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 67.31 125.73 0)
 			(effects
 				(font
@@ -6720,74 +7133,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "401f672d-0536-4322-994b-dfca496f8593")
-		(property "Reference" "C14"
-			(at 201.93 42.545 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2"
-			(at 201.93 45.085 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 205.74 48.5648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd584d47-7c88-400e-bc19-02a9359d5e30")
-		)
-		(pin "2"
-			(uuid "37b37579-9113-493d-a3a5-3c363dd78123")
-		)
-		(instances
-			(project "zetasdr"
-				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C14")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6803,7 +7149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45509bcb-3d4c-4ebe-9275-d8971fd6f533")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 111.125 179.07 0)
 			(effects
 				(font
@@ -6856,7 +7202,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6872,7 +7218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49154aa6-9f52-468a-8890-c4f8765fca8b")
-		(property "Reference" "C5"
+		(property "Reference" "C13"
 			(at 142.875 57.15 0)
 			(effects
 				(font
@@ -6925,7 +7271,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C5")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6942,7 +7288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51181303-dae2-4843-ad63-8071485438c3")
-		(property "Reference" "C12"
+		(property "Reference" "C19"
 			(at 181.61 85.09 90)
 			(effects
 				(font
@@ -6993,7 +7339,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7090,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC547")
-		(at 77.47 27.94 0)
+		(at 78.74 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7099,7 +7445,7 @@
 		(fields_autoplaced yes)
 		(uuid "52b7b9fe-a9fa-4ceb-b7e7-ca1dd7d9df09")
 		(property "Reference" "Q1"
-			(at 82.55 26.67 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7454,7 @@
 			)
 		)
 		(property "Value" "BC547C"
-			(at 82.55 29.21 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7463,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 82.55 29.845 0)
+			(at 83.82 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7474,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 77.47 27.94 0)
+			(at 78.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +7484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 27.94 0)
+			(at 78.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,16 +7511,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 45.72 0)
+		(at 60.96 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54532e3b-2a20-42c4-b27b-e75992d6456a")
-		(property "Reference" "#PWR036"
-			(at 80.01 52.07 0)
+		(uuid "535cc2cf-2704-490d-a174-e402adc20143")
+		(property "Reference" "#PWR011"
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7529,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 50.8 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 45.72 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +7546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 45.72 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7555,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 45.72 0)
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac275ac0-03f7-4f4c-b4fa-6598a8d9c906")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54532e3b-2a20-42c4-b27b-e75992d6456a")
+		(property "Reference" "#PWR019"
+			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7633,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR036")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7238,7 +7649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56fa5530-1805-4ceb-985c-70c527e16b94")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 39.37 172.72 0)
 			(effects
 				(font
@@ -7287,7 +7698,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7706,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 41.91 0)
+		(at 81.28 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7303,8 +7714,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57da2242-82a6-4286-977e-e8f0717ce042")
-		(property "Reference" "R6"
-			(at 82.55 40.64 0)
+		(property "Reference" "R5"
+			(at 83.82 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7724,7 @@
 			)
 		)
 		(property "Value" "380"
-			(at 82.55 43.18 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7733,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 78.232 41.91 90)
+			(at 79.502 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 41.91 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 41.91 0)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7767,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7364,7 +7775,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 137.16 0)
+		(at 172.72 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7372,8 +7783,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f6e187-a847-410d-9e86-7b3c5c4ce17f")
-		(property "Reference" "#PWR031"
-			(at 172.72 143.51 0)
+		(property "Reference" "#PWR044"
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +7793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 142.24 0)
+			(at 172.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 137.16 0)
+			(at 172.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 137.16 0)
+			(at 172.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 137.16 0)
+			(at 172.72 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7832,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5948e0af-7e4c-4e86-a3c1-834fe1d1f775")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 83.4741 121.92 0)
 			(effects
 				(font
@@ -7526,7 +7937,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "U2")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -7542,7 +7953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c5ba23-b25a-41f3-b58a-fa2f601982b5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR032"
 			(at 137.16 190.5 0)
 			(effects
 				(font
@@ -7591,7 +8002,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR08")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7599,7 +8010,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.705 123.19 90)
+		(at 176.53 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7607,8 +8018,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635dcd39-c56e-459f-9481-06a19ced8727")
-		(property "Reference" "C11"
-			(at 179.705 115.57 90)
+		(property "Reference" "C17"
+			(at 176.53 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +8027,7 @@
 			)
 		)
 		(property "Value" "330p"
-			(at 179.705 118.11 90)
+			(at 176.53 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +8035,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 183.515 122.2248 0)
+			(at 180.34 122.2248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +8044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.705 123.19 0)
+			(at 176.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,7 +8053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.705 123.19 0)
+			(at 176.53 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,74 +8069,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 202.565 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63a3b6f2-851c-4fae-8552-f1bda4eb48fd")
-		(property "Reference" "C15"
-			(at 202.565 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2"
-			(at 202.565 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 206.375 81.5848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 202.565 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 202.565 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6471ed5f-b80d-4e2d-a2ca-c74ae5444987")
-		)
-		(pin "2"
-			(uuid "1ec5ac27-1583-4287-a77c-a5c20fd182aa")
-		)
-		(instances
-			(project "zetasdr"
-				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7807,7 +8151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65500af8-b5f6-4e11-8453-8166f9106a33")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 133.985 168.275 0)
 			(effects
 				(font
@@ -7856,7 +8200,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7872,7 +8216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a72be81-a7d3-43de-a623-67ba460a56d6")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR028"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -7921,7 +8265,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR046")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7937,7 +8281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7c00e1-f180-4f61-9f5e-2d6a0c8fa817")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 83.82 180.34 0)
 			(effects
 				(font
@@ -7986,7 +8330,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7994,7 +8338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 39.37 0)
+		(at 35.56 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8002,8 +8346,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c398c61-b786-41ef-bf4e-9a7a53f0ed1c")
-		(property "Reference" "#PWR012"
-			(at 34.29 45.72 0)
+		(property "Reference" "#PWR03"
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 44.45 0)
+			(at 35.56 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 39.37 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 39.37 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 39.37 0)
+			(at 35.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8051,7 +8395,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8059,7 +8403,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74AHC1G04")
-		(at 104.14 36.83 0)
+		(at 105.41 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8067,8 +8411,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd26a00-fc28-4c03-9cab-6d4deed736b4")
-		(property "Reference" "U1"
-			(at 116.84 32.8931 0)
+		(property "Reference" "U2"
+			(at 118.11 67.1831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8420,7 @@
 			)
 		)
 		(property "Value" "74AHC1G04"
-			(at 116.84 35.4331 0)
+			(at 118.11 69.7231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8428,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 104.14 36.83 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8437,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 104.14 36.83 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 36.83 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8468,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8132,7 +8476,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 41.91 0)
+		(at 45.72 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8140,8 +8484,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76b4bbb4-5871-41b6-9117-d0c11099fc8b")
-		(property "Reference" "C18"
-			(at 46.99 40.64 0)
+		(property "Reference" "C2"
+			(at 49.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8494,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 46.99 43.18 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8159,7 +8503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 44.1452 45.72 0)
+			(at 46.6852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +8512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 41.91 0)
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 41.91 0)
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8537,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C18")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8201,7 +8545,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 46.99 0)
+		(at 100.33 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8209,8 +8553,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b21f6f5-16f7-4600-9e80-1c17d5ef10fd")
-		(property "Reference" "#PWR04"
-			(at 99.06 53.34 0)
+		(property "Reference" "#PWR025"
+			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,7 +8563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 51.435 0)
+			(at 100.33 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 46.99 0)
+			(at 100.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 46.99 0)
+			(at 100.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 46.99 0)
+			(at 100.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8602,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR04")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8274,7 +8618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c836cef-9787-4409-8e2e-71015bed799e")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 20.32 165.735 0)
 			(effects
 				(font
@@ -8334,7 +8678,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8342,7 +8686,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 54.61 33.02 0)
+		(at 55.88 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8351,7 +8695,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d02ca3c-7c56-4d76-a1c4-83da8ca258a8")
 		(property "Reference" "L1"
-			(at 55.88 31.75 0)
+			(at 57.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8704,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 55.88 34.29 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8713,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 54.61 33.02 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 33.02 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 33.02 0)
+			(at 55.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81bb9bda-e664-4c35-b7b2-185a6c6be924")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR027"
 			(at 107.95 190.5 0)
 			(effects
 				(font
@@ -8468,7 +8812,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR011")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8484,7 +8828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8214ad99-2026-4ef6-8f28-7232e83967a8")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR030"
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -8533,7 +8877,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR041")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8549,7 +8893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d1c190-fcbd-4b8f-9921-890d8873761d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 96.52 180.34 0)
 			(effects
 				(font
@@ -8598,7 +8942,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8614,7 +8958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874fad25-68c5-4331-8151-0caffd935f00")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 147.32 190.5 0)
 			(effects
 				(font
@@ -8663,7 +9007,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8671,7 +9015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 24.13 0)
+		(at 68.58 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8679,8 +9023,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ed5868b-a619-47d0-9ade-878ade3d00f0")
-		(property "Reference" "R1"
-			(at 69.85 22.86 0)
+		(property "Reference" "R4"
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,8 +9032,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 69.85 25.4 0)
+		(property "Value" "50"
+			(at 71.12 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +9042,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 65.532 24.13 90)
+			(at 66.802 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +9051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 24.13 0)
+			(at 68.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +9060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 24.13 0)
+			(at 68.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +9076,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8858,7 +9202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936e7207-bdbb-4843-a2f0-b5e1b50d7dd8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR026"
 			(at 107.95 180.34 0)
 			(effects
 				(font
@@ -8907,7 +9251,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR010")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8915,7 +9259,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 210.82 82.55 0)
+		(at 203.2 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8923,8 +9267,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975de4a5-ee2b-4509-90ad-bd76ea9e7f8e")
-		(property "Reference" "J3"
-			(at 213.36 81.5731 0)
+		(property "Reference" "J5"
+			(at 205.74 81.5731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9277,7 @@
 			)
 		)
 		(property "Value" "Output Q"
-			(at 213.36 84.1131 0)
+			(at 205.74 84.1131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,8 +9285,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 210.82 82.55 0)
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
+			(at 203.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8950,8 +9294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
-			(at 210.82 82.55 0)
+		(property "Datasheet" "~"
+			(at 203.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +9304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 82.55 0)
+			(at 203.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +9320,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8984,7 +9328,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 87.63 0)
+		(at 203.2 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8992,8 +9336,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98d7a355-98e1-497d-ab98-a1c1c3525322")
-		(property "Reference" "#PWR05"
-			(at 210.82 93.98 0)
+		(property "Reference" "#PWR046"
+			(at 203.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 92.71 0)
+			(at 203.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9385,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR05")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9a58eb-0672-4e8d-a48a-d14551b8a423")
-		(property "Reference" "C7"
+		(property "Reference" "C15"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -9110,7 +9454,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C7")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3e22a5-25b9-4030-87dc-3651d9a9101f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR037"
 			(at 149.86 114.3 0)
 			(effects
 				(font
@@ -9175,7 +9519,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR022")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9191,7 +9535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd02a9b-cbb3-414b-909c-4e2d759d2ada")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR016"
 			(at 72.39 180.34 0)
 			(effects
 				(font
@@ -9240,7 +9584,73 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR039")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e9fcc27-427b-4143-b4fb-dbf8aee6e182")
+		(property "Reference" "C5"
+			(at 64.77 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 64.77 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 68.58 44.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "975def96-d194-4f60-b5e2-b2f8b35a4fdd")
+		)
+		(pin "2"
+			(uuid "83a5233a-025b-449d-89d5-cd9a7f1f0b5f")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9256,7 +9666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a48e4642-8b4f-427e-b92b-30972c07e1fe")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 100.33 179.07 0)
 			(effects
 				(font
@@ -9309,7 +9719,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9317,7 +9727,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 80.01 22.86 0)
+		(at 81.28 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9325,8 +9735,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5775c15-03ae-4757-a4d0-a005a59b3cdd")
-		(property "Reference" "#PWR02"
-			(at 80.01 26.67 0)
+		(property "Reference" "#PWR018"
+			(at 81.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9745,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 80.01 17.78 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +9753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 22.86 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 22.86 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 22.86 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9784,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR02")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9382,76 +9792,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 180.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a61762e3-a4a1-4dff-b137-713e878d7351")
-		(property "Reference" "R11"
-			(at 156.21 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 160.528 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8ec553f-19d7-430d-995b-fe674126ee4b")
-		)
-		(pin "2"
-			(uuid "cc00cf66-d2c1-474d-8fdf-2e89676a49e7")
-		)
-		(instances
-			(project "zetasdr"
-				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 27.94 90)
+		(at 39.37 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9459,8 +9800,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c372d3-f218-4a17-9e97-13218177cc32")
-		(property "Reference" "R8"
-			(at 38.1 21.59 90)
+		(property "Reference" "R1"
+			(at 39.37 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9809,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 38.1 24.13 90)
+			(at 39.37 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,7 +9817,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 38.1 29.718 90)
+			(at 39.37 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,7 +9826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 27.94 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 27.94 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9851,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abac90bf-d43a-49ad-9af7-41796bb7d89e")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 60.96 185.7375 90)
 			(effects
 				(font
@@ -9579,7 +9920,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9587,7 +9928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 199.39 123.19 0)
+		(at 226.06 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9595,8 +9936,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac040c6f-e06c-4a9c-bd41-fa639e629c18")
-		(property "Reference" "J5"
-			(at 203.2 122.2132 0)
+		(property "Reference" "J6"
+			(at 229.87 122.2132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +9946,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 203.2 124.7532 0)
+			(at 229.87 124.7532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +9955,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 199.39 123.19 0)
+			(at 226.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9964,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 199.39 123.19 0)
+			(at 226.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 123.19 0)
+			(at 226.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +9989,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9664,7 +10005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af8c7d8e-bada-498d-b5df-8444d4c91808")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR08"
 			(at 57.15 177.8 0)
 			(effects
 				(font
@@ -9713,7 +10054,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR044")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9729,7 +10070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19fc613-63f3-40a7-90fd-d3ffa377a5b0")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 149.86 179.07 0)
 			(effects
 				(font
@@ -9781,7 +10122,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9862,7 +10203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6210ef3-e84a-4bbd-80d7-d825023cb5cf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR021"
 			(at 83.82 190.5 0)
 			(effects
 				(font
@@ -9911,7 +10252,72 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR033")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b712f7eb-438d-4dc7-9cd5-ecace317b5dd")
+		(property "Reference" "#PWR010"
+			(at 60.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d87158e-e27c-4d87-b321-0b9d6779ee82")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9927,7 +10333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b783ee85-52f8-4651-b390-c1f6507c45b9")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 139.7 179.07 0)
 			(effects
 				(font
@@ -9979,7 +10385,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9995,7 +10401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9805b31-bc08-4037-920a-c17b709cbf0e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR042"
 			(at 168.275 62.865 0)
 			(effects
 				(font
@@ -10044,7 +10450,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR029")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10060,7 +10466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba465c30-1a80-4fa6-a710-be0162366996")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR035"
 			(at 142.24 190.5 0)
 			(effects
 				(font
@@ -10109,7 +10515,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR09")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10117,7 +10523,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 115.57 0)
+		(at 172.72 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10125,8 +10531,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2b40f39-31ba-4f21-9f1f-8b9c6da30159")
-		(property "Reference" "R2"
-			(at 170.18 114.3 0)
+		(property "Reference" "R6"
+			(at 170.18 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10135,7 +10541,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 170.18 116.84 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +10550,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
-			(at 174.498 115.57 90)
+			(at 174.498 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 115.57 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 115.57 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10584,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10186,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 27.94 31.75 0)
+		(at 29.21 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10194,8 +10600,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3443411-1f5b-4d21-aeff-a26b2592bb5b")
-		(property "Reference" "J4"
-			(at 24.13 30.7731 0)
+		(property "Reference" "J2"
+			(at 25.4 70.1431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10610,7 @@
 			)
 		)
 		(property "Value" "Input AWG"
-			(at 24.13 33.3131 0)
+			(at 25.4 72.6831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,8 +10618,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 27.94 31.75 0)
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,8 +10627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
-			(at 27.94 31.75 0)
+		(property "Datasheet" "~"
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 31.75 0)
+			(at 29.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10653,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10263,7 +10669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8118c9b-9f2f-4f20-94ca-ac88a0aa0b0d")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 45.72 177.8 0)
 			(effects
 				(font
@@ -10352,7 +10758,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "U2")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -10368,7 +10774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca955eee-3308-4b5f-8da5-82d001f3407e")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 123.19 178.181 0)
 			(effects
 				(font
@@ -10421,7 +10827,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd47a39e-e0cc-4ece-af26-d98c1702492b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR05"
 			(at 39.37 195.58 0)
 			(effects
 				(font
@@ -10486,7 +10892,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR016")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10502,7 +10908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5342bd1-e758-4116-976a-2c23a281f090")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR09"
 			(at 57.15 195.58 0)
 			(effects
 				(font
@@ -10551,7 +10957,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR043")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10559,7 +10965,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 128.27 0)
+		(at 226.06 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10567,8 +10973,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7599808-4ab0-4e92-8b4c-b6e99e5ab175")
-		(property "Reference" "#PWR034"
-			(at 199.39 134.62 0)
+		(property "Reference" "#PWR047"
+			(at 226.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10983,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 133.35 0)
+			(at 226.06 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 128.27 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +11000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 128.27 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +11009,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 128.27 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +11022,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR034")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10624,7 +11030,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 40.64 0)
+		(at 71.12 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10632,8 +11038,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0ec574-62ec-4d85-9996-24c8bfab5119")
-		(property "Reference" "C1"
-			(at 73.66 39.37 0)
+		(property "Reference" "C7"
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +11048,7 @@
 			)
 		)
 		(property "Value" "82p"
-			(at 73.66 41.91 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +11057,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 70.8152 44.45 0)
+			(at 72.0852 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +11066,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 40.64 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10669,7 +11075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 40.64 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +11091,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10786,7 +11192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e170f9-519c-45e7-8952-c76a54a722e8")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 144.78 179.07 0)
 			(effects
 				(font
@@ -10838,7 +11244,72 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "H1")
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 68.58 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5036bb1-fdff-403c-b099-e8f36565ba96")
+		(property "Reference" "#PWR014"
+			(at 68.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 68.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95d69b6a-7a56-446e-8302-86ca47807647")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10929,71 +11400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9e29019-c8d4-4df1-9b5f-09891aa2ba35")
-		(property "Reference" "#PWR047"
-			(at 163.83 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "847fd72e-ab19-48d2-8611-d0adc9cb8164")
-		)
-		(instances
-			(project "zetasdr"
-				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 67.31 97.155 0)
 		(unit 1)
@@ -11003,7 +11409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed786795-7ddd-4743-ad02-e1382c6f5bb1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 67.31 100.965 0)
 			(effects
 				(font
@@ -11052,7 +11458,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11068,7 +11474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ff93dd-5ee2-4c3a-abc5-9c665cabd114")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR040"
 			(at 150.495 102.235 0)
 			(effects
 				(font
@@ -11117,7 +11523,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR025")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11132,7 +11538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa367ec2-2d7d-421c-bbce-eddc86210681")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 179.07 74.295 90)
 			(effects
 				(font
@@ -11183,7 +11589,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11199,7 +11605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3e4d35-eab7-45d8-963f-9a0017753acc")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 59.69 176.53 0)
 			(effects
 				(font
@@ -11252,7 +11658,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11268,7 +11674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc0519a2-bcc4-4ba6-bfaa-7b0d5f1031ff")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 168.275 45.085 0)
 			(effects
 				(font
@@ -11317,7 +11723,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11333,7 +11739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd3d751c-dbf6-4456-9991-de52ef7c8843")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR034"
 			(at 139.7 102.235 0)
 			(effects
 				(font
@@ -11382,7 +11788,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR021")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11398,7 +11804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd93f58e-bb3d-46e4-91c0-aaf74f0a70e4")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 87.63 179.07 0)
 			(effects
 				(font
@@ -11451,7 +11857,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11467,7 +11873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcfcd0d-349e-4e4b-88e9-ef155a1b3e6c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR038"
 			(at 149.86 168.275 0)
 			(effects
 				(font
@@ -11516,7 +11922,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR023")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11524,7 +11930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 210.82 49.53 0)
+		(at 203.2 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11532,8 +11938,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fec297d5-7576-4050-ae6f-7e5c65af32fd")
-		(property "Reference" "J1"
-			(at 214.63 48.5531 0)
+		(property "Reference" "J4"
+			(at 207.01 48.5531 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11948,7 @@
 			)
 		)
 		(property "Value" "Output I"
-			(at 214.63 51.0931 0)
+			(at 207.01 51.0931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,8 +11956,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 210.82 49.53 0)
+		(property "Footprint" "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,8 +11965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
-			(at 210.82 49.53 0)
+		(property "Datasheet" "~"
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 49.53 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,7 +11991,7 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11593,7 +11999,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 172.72 110.49 0)
+		(at 172.72 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11601,8 +12007,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3d8807-45bd-4d8b-8cc3-44329ec81b28")
-		(property "Reference" "#PWR030"
-			(at 172.72 114.3 0)
+		(property "Reference" "#PWR043"
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +12017,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 172.72 105.41 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +12025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 110.49 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +12034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 110.49 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +12043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 110.49 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,8 +12056,70 @@
 		(instances
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
-					(reference "#PWR030")
+					(reference "#PWR043")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 123.825)
+		(size 17.78 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9a12427-d98f-4713-92bb-10454904a0e1")
+		(property "Sheetname" "80m szűrő"
+			(at 201.93 123.1134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "80m.kicad_sch"
+			(at 201.93 128.2196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Input" input
+			(at 219.71 125.73 0)
+			(uuid "14197501-d1b7-40db-ae8e-dd1c9dff1403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Output" input
+			(at 201.93 125.73 180)
+			(uuid "41116de8-b881-4981-8a71-8cc6f9e7f704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(page "2")
 				)
 			)
 		)
