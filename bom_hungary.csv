@@ -1,33 +1,37 @@
-"Lomex",,,,,
-,"83-00-44","MV7404T1 (MOT)","1 db",,
-,"82-15-34","0805X225K160NT (FNG) RoHS 2.2uF 0805 10% 16V X5R","2 db",,
-,"06-02-95","XP-148M-B50K (FEM) RoHS 50K0 LIN MONO","1 db",,
-,"32-00-98","NE5532P (TI) RoHS DIP-8","1 db",,
-,"87-04-46","SN74AHC1G04DBVR (TI) RoHS SOT-23-5","1 db",,
-,"30-09-25","SN74HC74N (TI) RoHS DIP-14","1 db",,
-,"43-14-75","USB-B 4P ANYA 90° USB-B-04PFHTW (T-T) RoHS","1 db",,
-,,,,,
-,,,,,
-,,,,,
-"RET",,,,,
-,"93-05-36","82pF 0805","2 db",,
-," 93-01-66","100 nF 0805","5 db",,
-,"10-01-87 ","22 nF 50V ±20% Z5U RM1-Tape ","4 db",,
-,"10-01-26 ","22 nF 50V ±20% Z5U RM1-Tape ","2 db",,
-,"14-03-00","10 uF 100V 105°C ±20% radial d=6x11mm - YAGEO (TEAPO) - SE100M0010BZF-0611","1 db",,
-,,,,,
-,"10-01-62 ","100 nF 100V ±20% Z5U RM1-Tape ","1 db",,
-,"46-00-20 ","3L piros LTL4221NLC ","1 db",,
-,"22-03-17 ","BC 547C *N","1 db",,
-,"77-01-49 ","4.7 uH/SMD LQH32CN ","1 db",,
-,"01-01-21","100 KOhm 0.25W 5% RM4 - YAGEO - CFR-25JT-52-100K","1 db",,
-,"02-06-13 ","1 KOhm 0.4W 1% RM2 ","2 db",,
-,,,,,
-,"02-06-30 ","5.1 KOhm 0.4W 1% RM2","2 db",,
-,"34-03-73","CD74 HCT 4052E ","1 db",,
-,"51-02-23 ","DIL8 lemezes Assmann ","1 db",,
-,"51-02-19 ","DIL14 lemezes ","1 db",,
-,"51-02-09 ","DIL16 lemezes","1 db",,
-,"67-02-39","JY39-3P 3.5mm sztereo Jack aljzat - CLIFF - FC68131","1 db",,
-,,,,,
-,,,,,6
+"Reference","Qty","Value","DNP","Footprint","RET","Mouser"
+"C1,C3,C4,C8,C9,C10,C11","7","100n","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CC0805KRX7R8BB104",""
+"C2","1","DNP","DNP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","-",""
+"C5","1","1u","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","-","963-MLASH21GBB5105KT "
+"C6,C7","2","82p","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CC0805JRNPO9BN820",""
+"C12","1","10u","","Capacitor_THT:CP_Radial_D5.0mm_P2.50mm","SE063M0010B2F-0511",""
+"C13,C14,C15,C16","4","22n","","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","NCD223M50Z5U2.5MMLSF",""
+"C17","1","1n","","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","NCD102K50Y5PTR2.5MMLSF",""
+"C18,C19","2","330p","","Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm","NCD331K50Y5PTR2.5MMLSF",""
+"C20","1","68p","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","CC0603JRNPO9BN680",""
+"C21","1","10n","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","NMC0603X7R103K50TRPF",""
+"C22","1","150p","","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","CC0603JRNPO9BN151",""
+"D1","1","mv7404","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","?",""
+"D2","1","LED","","LED_THT:LED_D3.0mm","LTL-4221NLC",""
+"H1,H2,H3,H4","4","MountingHole_Pad","","MountingHole:MountingHole_3.2mm_M3_Pad","-",""
+"J1","1","USB_B","","Connector_USB:USB_B_Lumberg_2411_02_Horizontal"," UJ2-BH-W1-TH",""
+"J2","1","Input AWG","","Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal","UG1094PR",""
+"J3","1","Conn_02x02_Counter_Clockwise","","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","DIS-250-S037-55",""
+"J4","1","Output I","","Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal","UG1094PR",""
+"J5","1","Output Q","","Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal","UG1094PR",""
+"J6","1","Antenna","","Connector_Coaxial:SMA_Amphenol_901-143_Horizontal","SMA6252A2-3GT50G-50",""
+"L1","1","4u7","","Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder","NLQ35M4R7TRF",""
+"L3","1","27u","","Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder","-"," 652-CWF2012A-270K "
+"L4","1","180n","","Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder","-","652-CWF1612A-R18K "
+"L5","1","12u","","Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder","-"," 652-CWF2012A-120K "
+"Q1","1","BC547C","","Package_TO_SOT_THT:TO-92_Inline_Wide","BC547CBK",""
+"R1","1","100k","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","RC0805FR-07100KL",""
+"R2","1","1k","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","RC0805JR-071KL",""
+"R3,R4","2","50k","","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical","MF0207FTE52-51K",""
+"R5","1","380 (383)","","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","-","279-LR1F383R"
+"R6,R7","2","1k","","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","CFR-25JT-52-1K",""
+"R8,R9","2","5k1","","Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical","CFR-25JT-52-5K1",""
+"TP1,TP2","2","TestPoint_Alt","","Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical","",""
+"U1","1","74HC74","","Package_DIP:DIP-14_W7.62mm_Socket_LongPads","CD74HC74E",""
+"U2","1","74AHC1G04","","Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering","-","621-74AHC1G04SE-7 "
+"U3","1","4052","","Package_DIP:DIP-16_W7.62mm_Socket_LongPads","-","595-CD4052BEE4 "
+"U4","1","NE5532","","Package_DIP:DIP-8_W7.62mm_Socket_LongPads","NE5532AP",""
