@@ -3886,6 +3886,12 @@
 		(uuid "835e5adc-b1a6-4400-b2ed-05d2cd89acea")
 	)
 	(junction
+		(at 246.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fd30d8-5e55-4b80-adb3-ae72c2c2b1b7")
+	)
+	(junction
 		(at 190.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4825,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 106.68) (xy 246.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe82e8b-058f-4f72-90c5-9ef49827bf70")
+	)
+	(wire
+		(pts
 			(xy 57.15 90.17) (xy 57.15 106.68)
 		)
 		(stroke
@@ -5062,6 +5078,16 @@
 			(type default)
 		)
 		(uuid "b1221267-55f8-43ba-9286-59da459325fb")
+	)
+	(wire
+		(pts
+			(xy 237.49 106.68) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24e85c6-e95a-4e85-9bfb-188e0bd48442")
 	)
 	(wire
 		(pts
@@ -5362,16 +5388,6 @@
 			(type default)
 		)
 		(uuid "daf0c6a6-fa72-473b-8521-8136ccb9e682")
-	)
-	(wire
-		(pts
-			(xy 246.38 113.03) (xy 246.38 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2a065d-79a2-4fef-b254-6217b2265676")
 	)
 	(wire
 		(pts
@@ -6380,6 +6396,76 @@
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205f5823-563c-40b7-b67b-667d79b0d262")
+		(property "Reference" "C26"
+			(at 243.8401 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 241.3001 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 238.76 107.6452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071f4358-0365-48cc-b38f-68e8d335dd2f")
+		)
+		(pin "2"
+			(uuid "7df2a0c0-ff63-4310-9d17-63075e9a8897")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7695,6 +7781,71 @@
 			(project "zetasdr"
 				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dfb5fa6-e651-4ff2-a759-7dfe561720c3")
+		(property "Reference" "#PWR056"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 112.0775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bc18066-ab4f-49f2-9056-ad7941dd9100")
+		)
+		(instances
+			(project "zetasdr"
+				(path "/de94b6ce-b3ae-4dfb-9d41-6753717007aa"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10235,7 +10386,7 @@
 	(symbol
 		(lib_name "VCC_1")
 		(lib_id "power:VCC")
-		(at 246.38 100.33 0)
+		(at 246.38 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10244,7 +10395,7 @@
 		(fields_autoplaced yes)
 		(uuid "930ca8d1-67ba-49ba-8b1e-6f5d6ccc6630")
 		(property "Reference" "#PWR055"
-			(at 246.38 104.14 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10253,7 +10404,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 246.38 95.25 0)
+			(at 246.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +10412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 100.33 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,7 +10421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 100.33 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 246.38 100.33 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12537,7 +12688,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 248.92 113.03 0)
+		(at 248.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12546,7 +12697,7 @@
 		(fields_autoplaced yes)
 		(uuid "d228eb93-a400-49c9-8dd3-49c65361728b")
 		(property "Reference" "#PWR054"
-			(at 248.92 119.38 0)
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 118.11 0)
+			(at 248.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +12714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 113.03 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12572,7 +12723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 113.03 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +12732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 113.03 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +13530,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 246.38 107.95 90)
+		(at 246.38 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13388,7 +13539,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee42c55c-c762-489f-8002-a49446a34014")
 		(property "Reference" "J7"
-			(at 251.46 105.4099 90)
+			(at 251.46 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13397,7 +13548,7 @@
 			)
 		)
 		(property "Value" "Conn_02x02_Counter_Clockwise"
-			(at 251.46 107.9499 90)
+			(at 251.46 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13558,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
-			(at 246.38 107.95 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 107.95 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13576,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 107.95 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13434,7 +13585,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 246.38 107.95 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13594,7 @@
 			)
 		)
 		(property "RET" "DIS-250-S037-55"
-			(at 246.38 107.95 0)
+			(at 246.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

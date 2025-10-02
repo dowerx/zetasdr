@@ -1,5 +1,5 @@
 "Reference","Qty","Value","DNP","Footprint","RET","Mouser"
-"C1,C3,C4,C8,C9,C10,C11,C23","8","100n","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CC0805KRX7R8BB104",""
+"C1,C3,C4,C8,C9,C10,C11,C23,C26","9","100n","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CC0805KRX7R8BB104",""
 "C2","1","DNP","DNP","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","-",""
 "C5","1","1u","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","-","963-MLASH21GBB5105KT "
 "C6,C7","2","82p","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","CC0805JRNPO9BN820",""
